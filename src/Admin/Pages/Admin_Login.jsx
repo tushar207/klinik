@@ -4,7 +4,8 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
 function Admin_Login() {
-  useEffect(() => {
+  useEffect
+  (() => {
     if (localStorage.getItem("adminid")) {
       redirect("/dashboard");
     }
